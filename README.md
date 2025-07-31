@@ -112,12 +112,6 @@ Todos los cambios muestran un resumen previo y requieren confirmación antes de 
 
 ## 🔒 Seguridad
 
-- El archivo `env.config.json` debe mantenerse **fuera de Git**.  
-  Agrega en tu `.gitignore`:
-  ```
-  /usr/src/scripts/ivr/env.config.json
-  ```
-
 - Se recomienda proteger el archivo:
   ```bash
   chmod 600 env.config.json
