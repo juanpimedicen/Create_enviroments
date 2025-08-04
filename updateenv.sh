@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONFIG_FILE="./env.config.json"
+CONFIG_FILE="/usr/src/scripts/ivr/env.config.json"
 
 # Validación de dependencia
 if ! command -v jq &>/dev/null; then
